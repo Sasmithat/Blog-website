@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seaa</title>
+   
+    <link rel="stylesheet" href="new style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    
+    <script src="scripts.js"></script>
+    <style>
+
+    html {
+          scroll-behavior: smooth;
+         }
+
+
+         .navbar-nav .nav-item .nav-link {
+    color: #f4f2f2; /* Aqua color */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #f0f3f5; /* Darker blue color when hovered */
+}
+      .slider-container {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.navbar-nav .nav-item .nav-link {
+    text-decoration: none; /* Removes the underline */
+}
+
+/* Optional: On hover, still remove underline */
+.navbar-nav .nav-item .nav-link:hover {
+    text-decoration: none; /* Ensures no underline on hover */
+}
+
+.slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #040404;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.slide img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+   
+}
+
+.slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.slide-content h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.slide-content p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.slick-prev, .slick-next {
+    color: #7bc0ef;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.slick-prev:hover, .slick-next:hover {
+    color: #2980b9;
+}
+
+.slick-dots li button:before {
+    color: #3498db;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #2980b9;
+}
+
+    </style>
+    
+    
+</head>
+<body>
+   <div class="main">
+    <div class="backgroundImage"></div>
+    <div class="content">
+      <div class="text"> 
+        BENEATH THE <span style="color: aqua;">BLUE</span><br>THREE OF A KIND 
+        <p>“We can only sense that in the deep and turbulent recesses of the sea are hidden mysteries far greater than any we have solved.” </p>
+        <pre>                                                                                             -R. Carson</pre>
+      </div>
+    </div>
+    <div class="navbar">
+      <div class="container">
+        <div class="logo">
+            <img src="slogo.jpg" alt="logo" style="height:auto;width:150px; background-color: #0c0c0c;">
+        
+        </div>
+        <div class="menu">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link js-scroll active" href="#facts">Facts</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll active" href="#mysteries">Mysteries</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll active" href="#incidents">Incidents</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll active" href="#comments">Comments</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+   </div>
+   <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+   <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+   
+   <!-- Blog Grid Section -->
+    <div id="facts">
+        <div><h1 style="text-align: center;color: aqua;">Facts</h1></div>
+<div class="blog-container">
+  <div class="blog-grid">
+      <!-- Blog Card 1 --> 
+      <div class="blog-card">
+          <img src="fact 1.jpg" alt="Blog Post 1">
+          <div class="blog-card-content">
+              <h3>Under sea level</h3>
+              <i class="glyphicon glyphicon-user"></i>
+              <p>Sea level and the amount of water in the ocean change over time. 
+                During colder climatic periods, ice caps grow, glaciers form, and water turns to ice—lessening the amounts in other parts of the water cycle like the ocean. The reverse is true during warm periods. During the last ice age, glaciers covered almost one-third of Earth's land mass, and the ocean was 400 feet lower than today—allowing humans to cross over to North America from Asia.</p>
+             
+          </div>
+      </div>
+      <!-- Blog Card 2 -->
+      <div class="blog-card">
+          <img src="mining.png" alt="Blog Post 2">
+          <div class="blog-card-content">
+              <h3>Deep Sea Minerals</h3>
+              <p>37 out of 50 critical minerals can be found in the ocean!
+                A critical mineral is a non-fuel mineral or mineral material that is 1) essential to the economic or national security of the U.S., and 2) has a supply chain vulnerable to disruption. “Critical minerals play a significant role in our national security, economy, renewable energy development, and infrastructure,” says Tanya Trujillo,Assistant Secretary of the Interior for Water and Science.</p>
+              
+          </div>
+      </div>
+      <!-- Blog Card 3 -->
+      <div class="blog-card">
+          <img src="squid.jpg" alt="Blog Post 3">
+          <div class="blog-card-content">
+              <h3>Mysterious creature</h3>
+              <p>Giant squid: These mysterious creatures are among the largest invertebrates on Earth, growing to be at least 33 feet (10 meters) long.The largest of these elusive giants ever found measured 59 feet in length and weighed nearly a ton.</p>
+             
+          </div>
+      </div>
+      
+  </div>
+</div>
+</div>
+
+
+<div id="mysteries">
+    <div><h1 style="text-align: center;color: aqua;">Mysteries</h1></div>
+<div id="myst">
+  <div class="cont">
+    <div class="row">
+      <div class="myst-col-1">
+        <img src="bermuda.jpg" style="width: 448px ;height: 260px;">
+        </div>
+        <div class="myst-col-2">
+          <h1>Bermuda Triangle</h1>
+          <h3>The Bermuda Triangle is located in the ocean between Florida, Puerto Rico, and Bermuda. It’s where some airplanes and ships have gone missing.People have come up with all sorts of stories about it, like aliens and sea monsters. But scientists say there’s nothing really magical happening.The weather can be stormy there, and sometimes human errors or technical problems can make ships and planes disappear</h3>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <div class="cont">
+      <div class="row">
+        <div class="myst-col-1">
+          <img src="py.webp" style="width: 448px ;height: 260px;">
+          </div>
+          <div class="myst-col-2">
+            <h1>The Underwater Pyramids of Yonaguni</h1>
+            <h3>Off the coast of Japan, the Yonaguni Monument are underwater structures that some believe could be ancient pyramids (though this is still a subject of debate).The formations consist of big, flat rocks. Some are arranged like man-made structures with terraces, steps, and right angles. Although the origin of the Yonaguni Monument is still uncertain, some researchers and divers think these structures may have formed naturally from rocks breaking apart and eroding because of tectonic activity and underwater currents.Some people think ancient human civilizations may have shaped or changed the formations, but there isn’t much proof.</h3>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="cont">
+        <div class="row">
+          <div class="myst-col-1">
+            <img src="circles.jpg" style="width: 448px ;height: 260px;">
+            </div>
+            <div class="myst-col-2">
+              <h1>Underwater crop circles</h1>
+              <h3>There have been reports of intricate patterns and circular formations on the ocean floor. But these “underwater crop circles” are not created by mysterious forces, as the term “crop circles” might suggest.Male pufferfish create circular patterns in their nests. They create these intricate patterns on the seabed by swimming and flapping their fins as a form of courtship display.Other underwater circular patterns can be the result of geological and environmental factors. Circular features can form on the ocean floor due to sediment deposition, ocean currents, or underwater geological formations.</h3>
+            </div>
+          </div>
+        </div>
+  </div>
+  </div>
+
+
+  <div id="incidents">
+    <div><h1 style="text-align: center;color: aqua;">Incidents</h1></div>
+  <div class="slider-container">
+    <div class="slider">
+        <div class="slide">
+            <img src="titanic.png" alt="Slide 1" style="width: 730px;height: 650px ;">
+            <div class="slide-content">
+                <h2>The Titanic</h2>
+                <p>The sinking of the British RMS Titanic – which was billed as an "unsinkable ship" - in the early 1900s was likely the most famous of all maritime disasters. On its maiden voyage, the brand new Titanic hit an iceberg while it was en route to New York City from Southampton. </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="wilhelm.jpg" alt="Slide 2" style="width: 730px;height: 650px ;">
+            <div class="slide-content">
+                <h2>The Wilhelm Gustloff</h2>
+                <p> Near the end of World War ll, approximately 9,400 people perished when the German ship, the Wilhelm Gustloff, was taken down by a Soviet Navy submarine in the Baltic Sea during a civilian evacuation mission. Based on the number of lives that were lost in this occurrence – which included individuals and military personnel from Germany, Prussia, Latvia, Lithuania, Croatia, Estonia, and Poland - this incident is deemed as being the largest maritime disaster in history.</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="oil spill.jpg" alt="Slide 3" style="width: 730px;height: 650px ;">
+            <div class="slide-content">
+                <h2>The Deepwater Horizon Oil Spill</h2>
+                <p>The Deepwater Horizon oil spill that took place in the Gulf of Mexico started in April of 2010, when a BP oil rig exploded, spewing millions of gallons of oil into the water. Considered to be the largest marine oil spill on record – and one of the biggest environmental disasters in American history - the U.S. Government estimated the total discharge to be just under 5 million barrels of oil.The total cost of this disaster is estimated to be approximately $65 billion. </p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="oil rig.avif" alt="Slide 4" style="width: 730px;height: 650px ;">
+            <div class="slide-content">
+                <h2>The Byford Dolphin Accident</h2>
+                <p>In 1983, a tragic accident on the Byford Dolphin oil rig resulted in explosive decompression, instantly killing four saturation divers and critically injuring another crew member.The rapid decompression occurred when a diving bell prematurely detached from its chamber due to unsealed chamber doors.</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="black sea.webp" alt="Slide 5" style="width: 730px;height: 650px ;">
+            <div class="slide-content">
+                <h2>The Black sea</h2>
+                <p>The Black Sea is the largest inland body of water and is also the largest meromictic basin, which means the movement of water between the lower and upper layers of the Sea is rare. This creates considerable temperature and nutrient differences between these layers, with the lower layers being absolutely free of oxygen and anoxic.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- jQuery (necessary for Slick Slider) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Slick Slider JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<!-- Custom JS for initializing the Slick Slider -->
+<script>
+    $(document).ready(function(){
+        $('.slider').slick({
+            infinite: true,           // Enable infinite looping
+            slidesToShow: 1,          // Show 1 slide at a time
+            slidesToScroll: 1,        // Scroll 1 slide at a time
+            autoplay: true,           // Enable autoplay
+            autoplaySpeed: 3000,      // Set autoplay speed (3 seconds)
+            dots: true,               // Show navigation dots
+            arrows: true,             // Show previous and next arrows
+            fade: true,               // Enable fade effect for smoother transitions
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments">
+<div id="down">
+     <div><h1 style="text-align: center;color: aqua;">Comments</h1></div>
+<!-- Comments Section -->
+<section class="comments">
+  <div class="common">
+      <h2>Leave a Comment</h2>
+      <form id="commentForm">
+          <input type="text" id="commentName" placeholder="Your Name" required>
+          <textarea id="commentText" placeholder="Your Comment" required></textarea>
+          <button type="submit">Submit Comment</button>
+      </form>
+
+      <div id="commentsList">
+          <h3>Recent Comments</h3>
+          <!-- Comments will appear here -->
+      </div>
+  </div>
+</section>
+</div>
+</div>
+
+
+  
+  
+    
+     
+    
+
+</body>
+</html>
